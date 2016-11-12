@@ -1,5 +1,5 @@
 cd bin
-gfind . -maxdepth 1 -type f -name *.zip -delete
+rm *.zip
 d=qelly-`git rev-parse --short HEAD`
 mkdir $d
 cd $d
